@@ -1,0 +1,57 @@
+{
+  "file": "demo_test.txt",
+  "timestamp": "Wed Feb 11 01:34:34 2026",
+  "results": [
+    {
+      "algorithm": "huffman",
+      "file_size": 938,
+      "compressed_size": 1480,
+      "compression_ratio": 0.6337837837837837,
+      "L": 12.622601279317697,
+      "H": 4.839323286990872,
+      "entropy_efficiency_eta": 0.3833855779727566,
+      "relative_redundancy_R": 1.6083401605447456,
+      "adaptation_cost_C_adapt": 0.13646055437100213,
+      "compress_wall_time": 0.006838799999968614,
+      "compress_peak_memory": 2.0,
+      "decompress_wall_time": 0.006965200002014171,
+      "compress_throughput": 0.13080460150803766,
+      "decompress_throughput": 0.1284308431244445,
+      "lossless": true
+    },
+    {
+      "algorithm": "shannon_fano",
+      "file_size": 938,
+      "compressed_size": 1481,
+      "compression_ratio": 0.6333558406482107,
+      "L": 12.631130063965886,
+      "H": 4.839323286990872,
+      "entropy_efficiency_eta": 0.3831267085750707,
+      "relative_redundancy_R": 1.6101025525451138,
+      "adaptation_cost_C_adapt": 0.13646055437100213,
+      "compress_wall_time": 0.008701899998413865,
+      "compress_peak_memory": 2.0,
+      "decompress_wall_time": 0.005839199999172706,
+      "compress_throughput": 0.10279898745700544,
+      "decompress_throughput": 0.15319675793187443,
+      "lossless": true
+    },
+    {
+      "algorithm": "hybrid",
+      "file_size": 938,
+      "compressed_size": 845,
+      "compression_ratio": 1.1100591715976331,
+      "L": 7.20682302771855,
+      "H": 4.839323286990872,
+      "entropy_efficiency_eta": 0.6714918998812779,
+      "relative_redundancy_R": 0.48922124031102027,
+      "adaptation_cost_C_adapt": 0.8169163909796591,
+      "compress_wall_time": 0.004511600000114413,
+      "compress_peak_memory": 2.0,
+      "decompress_wall_time": 0.005477099999552593,
+      "compress_throughput": 0.19827699901728368,
+      "decompress_throughput": 0.16332484505708042,
+      "lossless": true
+    }
+  ]
+}
